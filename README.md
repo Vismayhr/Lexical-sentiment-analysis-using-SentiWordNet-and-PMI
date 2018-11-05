@@ -14,9 +14,12 @@ The average based approach involves finding the score of every word in a tweet f
 An explanation of the PMI approach can be viewed in the cited research paper.
 
 ## How to execute the program: ##
+Generate and store the required credentials for tweepy and Elastic search as mentioned in the global_vars.py file.
+<br>
 Run the command in the command prompt/terminal:  ```python main.py```
 
 **NOTE: It is required to use the sentiwordnet file provided in this repository to run the code successfully.**  
+<br>
 We have edited certain portions of the file to make it easier to convert it into CSV format (The first ~20 lines have containing information about the lexicon have been removed). However, no changes have been made to the words or their corresponding scores in the lexicon, hence, the results will not be affected in anyway.
 
 ### Required packages: ###
